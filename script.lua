@@ -16,7 +16,7 @@ local result = get("result")
 
 coroutine.wrap(function()
     local res = fetch({
-        url = "https://api.buss.lol/tlds",
+        url = "https://raw.githubusercontent.com/ncmq/webx-test/main/tlds-better.json?token=GHSAT0AAAAAACQWYXPTTC7I3C6D35PAJOVWZTAP4JA",
         method = "GET",
         headers = { ["Content-Type"] = "application/json" },
     })
